@@ -11,6 +11,7 @@ Vue.component('icon', Icon)
 
 
 
+
 new Vue({
 	el: '#app',
 	render: h => h(App)
