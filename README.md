@@ -2,6 +2,11 @@
 
 > A Vue.js project
 
+![build](https://travis-ci.org/anshad/go-smart.svg?branch=master)
+
+# Live
+[Go Smart](https://oneapp-1b9ae.firebaseapp.com/)
+
 ## Build Setup
 
 ``` bash
