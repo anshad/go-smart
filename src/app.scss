@@ -2,11 +2,25 @@
 * @Author: anshad
 * @Date:   2017-09-05 11:16:06
 * @Last Modified by:   Anshad Vattapoyil
-* @Last Modified time: 2017-09-05 20:58:16
+* @Last Modified time: 2017-09-06 09:39:03
 */
 $orange:#FFA200;
+.header {
+	padding:0;
+	margin-top:30px;
+	margin-bottom:15px;
+	overflow: hidden;
+	.buttons {
+		float:right;
+		.btn {
+			cursor: pointer;
+			border-radius:0;
+			background-color:$orange;
+			color:#fff;
+		}
+	}
+}
 #app-container {
-	margin-top:50px;
 	padding:0;
 	box-shadow: 0 0 5px #777;
 }
@@ -90,5 +104,5 @@ $orange:#FFA200;
 	border-radius:0;
 	border:1px solid $orange;
 	color:#fff;
-	padding:13px;
+	padding:13px 10px 10px 10px;
 }
